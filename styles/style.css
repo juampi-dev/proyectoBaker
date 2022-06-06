@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Nunito:wght@200&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #f3de8a;
+}
+
+.navbar-logoIcon{
+    height: 40px;
+}
+
+.navBar-Color{
+    background-color: #d87cac;
+}
+
+.navbar-nav li a{
+    color: black;
+    font-weight: bold;
+    margin: 0px 15px;
+    text-align: center;
+}
+
+.d-block w-100{
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.logoSection{
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100vh;
+}
+
+.logoSection h1{
+    font-family: 'Chewy', cursive;
+    font-size: 250px;
+}
+
+.logoSection h2{
+    font-family: 'Chewy', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+
+.logoSection h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mostWanted{
+    background-color: #a27035;
+    margin: 30px 25% 30px 25%;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.mostWanted h3{
+    text-align: center;
+    font-size: 45px;
+}
+
+.galeriaContenedor{
+    background-color: #a27035;
+    margin: 30px 25% 30px 25%;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+}
+
+.mWprod{
+    height: 350px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 2%;
+    margin: 10px;
+}
+
+.galeria1 figcaption{
+    text-align: center;
+    font-size: 25px;
+}
+
+.specialtyCoffee{
+    background-color: #a27035;
+    margin: 30px 25% 30px 25%;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+}
+
+.specialtyCoffee h3{
+    text-align: center;
+    font-size: 45px;
+}
+
+.sCprod{
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 2%;
+    margin: 10px;
+}
+
+.specialtyCoffee figcaption{
+    font-size: 25px;
+    text-align: center;
+}
+
+.armaCombo{
+    background-color: #a27035;
+    margin: 30px 25% 30px 25%;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+}
+
+.armaCombo h3{
+    text-align: center;
+    font-size: 45px;
+}
+
+.aCprod{
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 2%;
+    margin: 10px;
+}
+
+.armaCombo figcaption{
+    font-size: 25px;
+    text-align: center;
+}
+
+footer{
+    height: 250px;
+    background-color: #020202;
+    color: #f8f2dc;
+}
+
+@media (max-width: 952px){
+    .navbar-logoLink{
+        padding-left: 20px;
+    }
+    .navBar ul li a{
+        font-size: 16px;
+    }
+    .logoSection h1{
+        font-size: 150px;
+        text-align: center;
+    }
+    
+    .logoSection h2{
+        font-size: 100px;
+        text-align: center;
+    }
+    
+    .logoSection h3{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 860px){
+    .checkbtn{
+        display: block;
+    }
+    .navBar ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .navBar ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .navBar ul li a{
+        font-size: 20px;
+    }
+    .navBar li:hover{
+        background: none;
+        color: #d87cac
+    }
+    #check:checked ~ ul{
+        left: 0%;
+    }
+    .logoSection{
+        background-color: #f8f2dc;
+        background-image: url("../img/fondoLogo.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+        width: 100%;
+        text-align: center;
+    }
+    .logoSection h1{
+        font-size: 15vh;
+        text-align: center;
+    }
+    .logoSection h2{
+        font-size: 10vh;
+        text-align: center;
+    }
+    .logoSection h3{
+        font-size: 3vh;
+        text-align: center;
+        margin-top: 70px;
+    }
+}
+
