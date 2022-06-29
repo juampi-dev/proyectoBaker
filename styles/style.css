@@ -214,6 +214,7 @@ footer h5{
     padding:10px 20px;
     box-sizing:border-box;
     margin-top:20px;
+    margin-bottom:20px;
     border-radius:7px;
 }
 
@@ -246,6 +247,10 @@ footer h5{
     padding: 20px;
 }
 
+.botonForm:hover{
+    cursor: pointer;
+}
+
 @media (max-width: 952px){
     .navbar-logoLink{
         padding-left: 20px;
@@ -274,6 +279,10 @@ footer h5{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 35px 0px;
+    }
+
+    .contactoForm{
+        width: 100%;
     }
 }
 
@@ -333,6 +342,10 @@ footer h5{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 35px 0px;
+    }
+    
+    .contactoForm{
+        width: 100%;
     }
 }
 
