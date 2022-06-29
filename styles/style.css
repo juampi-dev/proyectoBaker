@@ -40,11 +40,16 @@ body{
 }
 
 .titleContainer{
-    color: #fff;
+    color: rgb(0, 0, 0);
+    width: 450px;
+    margin: auto;
+    font-family: 'Chewy', sans-serif;
     font-weight: bold;
+    padding: 10px 20px;
     background-color: #a27035;
-    margin: 30px 25% 30px 25%;
-    border: 5px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 3px solid black;
     text-align: center;
 }
 
@@ -293,7 +298,11 @@ footer h5{
     }
 
     .contactoForm{
-        width: 100%;
+        width: 60%;
+    }
+
+    .titleContainer{
+        width: 60%;
     }
 }
 
@@ -356,7 +365,11 @@ footer h5{
     }
     
     .contactoForm{
-        width: 100%;
+        width: 80%;
+    }
+
+    .titleContainer{
+        width: 60%;
     }
 }
 
