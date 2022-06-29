@@ -54,8 +54,9 @@ body{
 }
 
 .galeriaContenedor{
-    background-color: #fff;
-    margin: 30px 25% 30px 25%;
+    background-color: #a27035;
+    margin: auto;
+    max-width: 90%;
     border: 5px solid black;
     display: flex;
     flex-direction: row;
@@ -66,38 +67,39 @@ body{
 }
 
 .mWprod{
-    height: 400px;
-    width: 420px;
+    max-height: 300px;
+    max-width: 300px;
+    background-position: center;
+    background-size: center;
+    background-color: #fff;
     border: 2px solid black;
     border-radius: 2%;
     margin: 10px;
 }
 
-.galeria1 figcaption{
+.galeriaContenedor figcaption{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .specialtyCoffee{
     background-color: #a27035;
-    margin: 30px 25% 30px 25%;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border: 5px solid black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content: space-around;
+    align-content: flex-start;
     align-items: center;
 }
 
-.specialtyCoffee h3{
-    text-align: center;
-    font-size: 45px;
-}
-
 .sCprod{
-    height: 300px;
-    width: 300px;
+    max-height: 300px;
+    max-width: 300px;
     background-position: center;
     background-size: center;
     border: 2px solid black;
@@ -106,7 +108,7 @@ body{
 }
 
 .specialtyCoffee figcaption{
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
