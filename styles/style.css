@@ -294,6 +294,52 @@ footer h5{
     max-width: 300px;
 }
 
+.introCoffee p{
+    margin: 2%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.whySpecialty{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "h2 h2 h2 h2"
+    "p p img img"
+}
+
+.specialtyH2{
+    grid-area: h2;
+    width: 100%;
+}
+
+.specialtyH2 h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.pSpecialty{
+    grid-area: p;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 2%;
+}
+
+.pSpecialty p{
+    margin: 2%;
+}
+
+.imgSpecialty{
+    grid-area: img;
+    margin: auto;
+}
+
+.imgSpecialty figure img{
+    height: 300px;
+    width: auto;
+}
+
 @media (max-width: 952px){
     .navbar-logoLink{
         padding-left: 20px;
